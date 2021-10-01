@@ -51,7 +51,9 @@ Bouckaert et al. 2012 calibrations:
 
 - Latvian, Lithuanian = normal(1350.0,25.0)
 - Balto_Slavic = normal(3100.0,600.0)
-  # XXX Balto_Slavic distribution should be truncated from 2000-3400
+ 
+  [ XXX Balto_Slavic distribution should be truncated from 2000-3400]
+  
 - Northwest_Germanic = normal(1875.0,67.0)
 - Indo_Iranian = 3000 - 10000
 - Iranian = 2600 + rlognormal(400.0,0.8)
