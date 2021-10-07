@@ -12,7 +12,7 @@ This repository contains data and scripts for producing a Baysian phylogenetic t
 
 ## The "Broad data set"
 
-- Use the Bouckaert et al. (2012) language sample minus sparsly attested languages, following Chang et al. (2015). This is a tradeoff between quality of the wordlist and quantity of languages in the sample. 
+- Use the Bouckaert et al. (2012) language sample minus sparsely attested languages, following Chang et al. (2015). This is a tradeoff between quality of the wordlist and quantity of languages in the sample. 
 - Slightly truncated meaning list:
 
     The broad data set consists of ninety-four languages and 197 meaning
