@@ -97,7 +97,7 @@ model, logs, and state. As stated above, a copy of the main output, as the `iele
 
 ## Tree
 
-![Indo-European phylogenetic tree](https://raw.githubusercontent.com/evotext/good-enough-ie/main/ielex.png)
+![Indo-European phylogenetic tree](ielex.png)
 
 ## Authors and citation
 
