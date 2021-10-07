@@ -1,4 +1,4 @@
-# Indo-European Good Enough Tree
+# Indo-European (IELex) Good Enough Tree
 
 [ADD DOI AFTER ZENODO RELEASE]
 
