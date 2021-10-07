@@ -122,22 +122,22 @@ In BibTeX:
 
 ## References
 
-Bouckaert RR, Lemey P, Dunn M, Greenhill SJ, Alekseyenko AV, Drummond AJ, Gray RD, Suchard MA & Atkinson QD. 2012. Mapping the Origins and Expansion of the Indo-European Language Family. Science, 337(6097), 957-960.
+Bouckaert RR, Lemey P, Dunn M, Greenhill SJ, Alekseyenko AV, Drummond AJ, Gray RD, Suchard MA & Atkinson QD. 2012. Mapping the Origins and Expansion of the Indo-European Language Family. *Science*, 337(6097), 957-960.
 
-Bouckaert R., Vaughan T.G., Barido-Sottani J., Duchêne S., Fourment M., Gavryushkina A., et al. (2019) BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis. PLoS computational biology, 15(4), e1006650.
+Bouckaert R., Vaughan T.G., Barido-Sottani J., Duchêne S., Fourment M., Gavryushkina A., et al. (2019) BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis. *PLoS computational biology*, 15(4), e1006650.
 
-Chang W, Cathcart C, Hall D, & Garrett A. 2015. Ancestry-constrained phylogenetic analysis supports the Indo-European steppe hypothesis. Language, 91(1):194-244.
+Chang W, Cathcart C, Hall D, & Garrett A. 2015. Ancestry-constrained phylogenetic analysis supports the Indo-European steppe hypothesis. *Language*, 91(1):194-244.
 
-Dunn, Michael. 2012. Indo-European Lexical Cognacy Database. Max Planck Institute for Psycholinguistics: Nijmegen.
+Dunn, Michael. 2012. *Indo-European Lexical Cognacy Database*. Max Planck Institute for Psycholinguistics: Nijmegen.
 
-Hammarström, Harald & Forkel, Robert & Haspelmath, Martin & Bank, Sebastian. 2021. Glottolog 4.4.
+Hammarström, Harald & Forkel, Robert & Haspelmath, Martin & Bank, Sebastian. 2021. *Glottolog 4.4*.
 Leipzig: Max Planck Institute for Evolutionary Anthropology. https://doi.org/10.5281/zenodo.4761960 
 
-List, Johann Mattis & Rzymski, Christoph & Greenhill, Simon & Schweikhard, Nathanael & Pianykh, Kristina & Tjuka, Annika & Hundt, Carolin & Forkel, Robert (eds.) 2021. CLLD Concepticon 2.5.0 [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4911605 
+List, Johann Mattis & Rzymski, Christoph & Greenhill, Simon & Schweikhard, Nathanael & Pianykh, Kristina & Tjuka, Annika & Hundt, Carolin & Forkel, Robert (eds.) 2021. *CLLD Concepticon 2.5.0* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4911605 
 
-Maurits, Luke, Robert Forkel, Gereon A. Kaiping, and Quentin D. Atkinson. 2017. “BEASTling: A Software Tool for Linguistic Phylogenetics Using BEAST 2.” PLOS ONE 12 (8): e0180908. https://doi.org/10.1371/journal.pone.0180908.
+Maurits, Luke, Robert Forkel, Gereon A. Kaiping, and Quentin D. Atkinson. 2017. BEASTling: A Software Tool for Linguistic Phylogenetics Using BEAST 2. *PLOS ONE* 12 (8): e0180908. https://doi.org/10.1371/journal.pone.0180908.
 
-Rambaut, Andrew. Figtree v.1.4.4. http://tree.bio.ed.ac.uk/software/figtree/
+Rambaut, Andrew. *Figtree v.1.4.4*. http://tree.bio.ed.ac.uk/software/figtree/
 
 <!--
 vim:ft=markdown
