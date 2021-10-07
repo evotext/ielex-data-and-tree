@@ -36,7 +36,7 @@ Calibrations are derived from Chang et al. (2015) for individual languages (but 
 |----------------------|--------------------------------|-------------------------|
 | Ancient Greek        | 2400-2500                      | Chang et al. (2015)     |
 | Avestan              | 2450-2550                      | Chang et al. (2015)     |
-| Balto Slavic         | normal(3100.0, 600.0)          | Bouckaert et al. (2012) |
+| Balto Slavic         | normal(3100.0, 600.0)[^1]      | Bouckaert et al. (2012) |
 | Celtic               | 1200 + rlognormal(2000.0, 0.6) | Bouckaert et al. (2012) |
 | Classical Armenian   | 1500-1600                      | Chang et al. (2015)     |
 | Cornish              | 200-400                        | Chang et al. (2015)     |
@@ -65,6 +65,8 @@ Calibrations are derived from Chang et al. (2015) for individual languages (but 
 | Vedic Sanskrit       | 3000-3500                      | Chang et al. (2015)     |
 | West Germanic        | normal(1550.0, 25.0)           | Bouckaert et al. (2012) |
 | originate(Brythonic) | normal(1500.0, 25.0)           | Bouckaert et al. (2012) |
+
+[^1]:  Note that, as per source, Balto_Slavic distribution should be truncated from 2000-3400. This is not done in the model we are presenting here.
 
 ## Tree samples
 
