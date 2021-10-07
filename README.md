@@ -1,6 +1,8 @@
 # Indo-European Good Enough Tree
 
-This repository contains data and scripts for producing a Baysian phylogenetic tree sample of for the Indo-European family which is *good enough* for use in phylogenetic comparative methods. There are persistent rumours that something better will be available soon, but in the meantime, this is the best we can do.
+[ADD DOI AFTER ZENODO RELEASE]
+
+This repository contains data and scripts for producing a Baysian phylogenetic tree sample of for the Indo-European family which is *good enough* for use in phylogenetic comparative methods. It should be considered as the current version of the "Indo-European Lexical Cognacy Database" from Dunn (2012), popularly known as "IELex". There are persistent rumours that something better will be available soon, but in the meantime, this is the best we can do.
 
 ## Design principles
 
@@ -73,7 +75,45 @@ The control file IE-trees-v1/ie-v1.xml was made manually by Tiago Tresoldi, foll
 
 ## Files
 
+The `data/` directory holds the files most researchers will be interested in:
 
+  - `broad.csv` is a single table in long format containing the essential database information,
+    given one entry per row, each with the associated language, concept, and cognate set.
+    It also carries the glottocode (Hammarström et al., 2021) corresponding to each language;
+    concept glosses are given via the corresponding Concepticon (List et al., 2021) cognate set.
+    It is the file most people will want when searching for "IELex data".
+
+  - `concepts.XXX` is a list mapping all concepts used in IELex to their corresponding
+    concept set in Concepticon (List et al., 2021), giving both the gloss and the id.
+
+  - `ielex.mcc.tre` is the Maximum Clade Credibility ("consensus") tree from our latest
+    analysis (currently `IE-tree-v1`).
+
+  - `ielex.mcc.pdf` is a graphic rendering of the tree above, generated with FigTree.
+  
+## Author and citation
+
+The data and analysis was prepared within the context of
+the [Cultural Evolution of Texts](https://github.com/evotext/) project, with funding from the
+[Riksbankens Jubileumsfond](https://www.rj.se/) (grant agreement ID:
+[MXM19-1087:1](https://www.rj.se/en/anslag/2019/cultural-evolution-of-texts/)).
+
+If you use the data from this repository, please cite it as:
+
+> Dunn, Michael. 2021. Indo-European Lexical Cognacy Database. Uppsala: Uppsala universitet. Available at: https://github.com/evotext/good-enough-ie
+
+In BibTeX:
+
+```
+@misc{Dunn2021IELex,
+  author = {Dunn, Michael},
+  title = {Indo-European Lexical Cognacy Database},
+  howpublished = {\url{https://github.com/evotext/good-enough-ie}},
+  address = {Uppsala},
+  publisher = {Uppsala universitet},
+  year = {2021},
+}
+```
 
 ## References
 
@@ -83,7 +123,16 @@ Bouckaert R., Vaughan T.G., Barido-Sottani J., Duchêne S., Fourment M., Gavryus
 
 Chang W, Cathcart C, Hall D, & Garrett A. 2015. Ancestry-constrained phylogenetic analysis supports the Indo-European steppe hypothesis. Language, 91(1):194-244.
 
+Dunn, Michael. 2012. Indo-European Lexical Cognacy Database. Max Planck Institute for Psycholinguistics: Nijmegen.
+
+Hammarström, Harald & Forkel, Robert & Haspelmath, Martin & Bank, Sebastian. 2021. Glottolog 4.4.
+Leipzig: Max Planck Institute for Evolutionary Anthropology. https://doi.org/10.5281/zenodo.4761960 
+
+List, Johann Mattis & Rzymski, Christoph & Greenhill, Simon & Schweikhard, Nathanael & Pianykh, Kristina & Tjuka, Annika & Hundt, Carolin & Forkel, Robert (eds.) 2021. CLLD Concepticon 2.5.0 [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4911605 
+
 Maurits, Luke, Robert Forkel, Gereon A. Kaiping, and Quentin D. Atkinson. 2017. “BEASTling: A Software Tool for Linguistic Phylogenetics Using BEAST 2.” PLOS ONE 12 (8): e0180908. https://doi.org/10.1371/journal.pone.0180908.
+
+Rambaut, Andrew. Figtree v.1.4.4. http://tree.bio.ed.ac.uk/software/figtree/
 
 <!--
 vim:ft=markdown
