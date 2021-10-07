@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
 Take data from ielex-130421-ag-cc.txt and transform it into beastling
-compatible format with column marking for ascertainment correction
+compatible format with column marking for ascertainment correction. Meanings
+from EXCLUDE_MEANINGS are excluded, as are meanings which are missing in more
+than 30% of the languages.
 
 Make sure to use the option binarised=True in the beastling configuration.
 """
