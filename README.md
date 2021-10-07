@@ -2,7 +2,7 @@
 
 [ADD DOI AFTER ZENODO RELEASE]
 
-This repository contains data and scripts for producing a Baysian phylogenetic tree sample of for the Indo-European family which is *good enough* for use in phylogenetic comparative methods. It should be considered as the current version of the "Indo-European Lexical Cognacy Database" from Dunn (2012), popularly known as "IELex". There are persistent rumours that something better will be available soon, but in the meantime, this is the best we can do.
+This repository contains data and scripts for producing a Baysian phylogenetic tree sample of for the Indo-European family which is *good enough* for use in phylogenetic comparative methods. It should be considered as the current version of the "Indo-European Lexical Cognacy Database" from Dunn et al. (2011), popularly known as "IELex". There are persistent rumours that something better will be available soon, but in the meantime, this is the best we can do.
 
 ## Design principles
 
@@ -128,7 +128,7 @@ Bouckaert R., Vaughan T.G., Barido-Sottani J., Duchêne S., Fourment M., Gavryus
 
 Chang W, Cathcart C, Hall D, & Garrett A. 2015. Ancestry-constrained phylogenetic analysis supports the Indo-European steppe hypothesis. *Language*, 91(1):194-244.
 
-Dunn, Michael. 2012. *Indo-European Lexical Cognacy Database*. Max Planck Institute for Psycholinguistics: Nijmegen.
+Dunn, Michael; Ludewig, Julia; et al. 2011. IELex (Indo-European Lexical Cognacy Database) Database. Max Planck Institute for Psycholinguistics: Nijmegen.
 
 Hammarström, Harald & Forkel, Robert & Haspelmath, Martin & Bank, Sebastian. 2021. *Glottolog 4.4*.
 Leipzig: Max Planck Institute for Evolutionary Anthropology. https://doi.org/10.5281/zenodo.4761960 
