@@ -115,7 +115,7 @@ In BibTeX:
 ```
 @misc{Dunn2021IELex,
   author = {Michale Dunn and Tiago Tresoldi},
-  title = {IELex (Indo-European Lexical Cognacy) Database},
+  title = {IELex, the Indo-European Lexical Cognacy Database},
   howpublished = {\url{https://github.com/evotext/good-enough-ie}},
   address = {Uppsala},
   publisher = {Uppsala universitet},
@@ -131,7 +131,7 @@ Bouckaert R., Vaughan T. G., Barido-Sottani J., Duchêne S., Fourment M., Gavryu
 
 Chang W., Cathcart C., Hall D. & Garrett A. 2015. Ancestry-constrained phylogenetic analysis supports the Indo-European steppe hypothesis. *Language*, 91(1):194-244.
 
-Dunn M., Ludewig J. et al. 2011. IELex (Indo-European Lexical Cognacy) Database. Max Planck Institute for Psycholinguistics: Nijmegen.
+Dunn M., Ludewig J. et al. 2011. IELex, the Indo-European Lexical Cognacy Database. Max Planck Institute for Psycholinguistics: Nijmegen.
 
 Hammarström H., Forkel R., Haspelmath M. & Bank S. 2021. *Glottolog 4.4*.
 Leipzig: Max Planck Institute for Evolutionary Anthropology. https://doi.org/10.5281/zenodo.4761960 
