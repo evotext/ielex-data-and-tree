@@ -95,6 +95,10 @@ The `build/` directory holds the files used for preparing the phylogenetic recon
 The `IE-trees-v1/` directory holds the files related to the phylogenetic reconstruction, including
 model, logs, and state. As stated above, a copy of the main output, as the `ielex.mcc`, is found in the `data/` directory.
 
+## Tree
+
+![Indo-European phylogenetic tree](https://raw.githubusercontent.com/evotext/good-enough-ie/main/ielex.png)
+
 ## Authors and citation
 
 The data and analysis was prepared within the context of
