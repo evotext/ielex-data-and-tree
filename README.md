@@ -125,7 +125,7 @@ In BibTeX:
 
 ```
 @misc{Dunn2021IELex,
-  author = {Michale Dunn and Tiago Tresoldi},
+  author = {Michael Dunn and Tiago Tresoldi},
   title = {Indo-European Lexical Data (IELex) and ‘Good Enough’ Tree},
   howpublished = {\url{https://github.com/evotext/ielex-data-and-tree}},
   address = {Uppsala},
