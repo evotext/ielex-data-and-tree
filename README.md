@@ -2,7 +2,7 @@
 
 [ADD DOI AFTER ZENODO RELEASE]
 
-This repository contains data and scripts for producing a Baysian phylogenetic tree sample of for the Indo-European family which is *good enough* for use in phylogenetic comparative methods. It should be considered as the current version of the "Indo-European Lexical Cognacy Database" from Dunn et al. (2011), popularly known as "IELex". There are persistent rumours that something better will be available soon, but in the meantime, this is the best we can do.
+This repository contains data and scripts for producing a Baysian phylogenetic tree sample of for the Indo-European family which is *good enough* for use in phylogenetic comparative methods. It should be considered as the current version of the "Indo-European Lexical Cognacy Database" from Dunn et al. (2011), popularly known as "IELex". The "Indo-European Cognate Relationships" (IE-CoR) database project, now based at the Max Planck Institute for Evolutionary Anthropology, has been working on a much improved database originally based on this data, but has not release public data so far. In the meantime, this is the best we can offer, as an alternative to the original website (http://ielex.mpi.nl) which is now offline.
 
 ## Design principles
 
@@ -11,7 +11,6 @@ This repository contains data and scripts for producing a Baysian phylogenetic t
 - Ultimately we will offer control files generated using the beastling package (Maurits et al. 2017), which would make it very easy for users to change data and model settings; unfortunately we have found some bugs in the current iteration of beastling which makes it unsuitable. 
 
 ## The "Broad data set"
-
 - Use the Bouckaert et al. (2012) language sample minus sparsly attested languages, following Chang et al. (2015). This is a tradeoff between quality of the wordlist and quantity of languages in the sample. 
 - Slightly truncated meaning list:
 
@@ -96,7 +95,7 @@ The `build/` directory holds the files used for preparing the phylogenetic recon
 The `IE-trees-v1/` directory holds the files related to the phylogenetic reconstruction, including
 model, logs, and state. As stated above, a copy of the main output, as the `ielex.mcc`, is found in the `data/` directory.
 
-## Author and citation
+## Authors and citation
 
 The data and analysis was prepared within the context of
 the [Cultural Evolution of Texts](https://github.com/evotext/) project, with funding from the
@@ -105,13 +104,13 @@ the [Cultural Evolution of Texts](https://github.com/evotext/) project, with fun
 
 If you use the data from this repository, please cite it as:
 
-> Dunn, Michael. 2021. Indo-European Lexical Cognacy Database. Uppsala: Uppsala universitet. Available at: https://github.com/evotext/good-enough-ie
+> Dunn, Michael & Tresoldi, Tiago. 2021. Indo-European Lexical Cognacy Database. Uppsala: Uppsala universitet. Available at: https://github.com/evotext/good-enough-ie
 
 In BibTeX:
 
 ```
 @misc{Dunn2021IELex,
-  author = {Dunn, Michael},
+  author = {Michale Dunn and Tiago Tresoldi},
   title = {Indo-European Lexical Cognacy Database},
   howpublished = {\url{https://github.com/evotext/good-enough-ie}},
   address = {Uppsala},
@@ -122,22 +121,22 @@ In BibTeX:
 
 ## References
 
-Bouckaert RR, Lemey P, Dunn M, Greenhill SJ, Alekseyenko AV, Drummond AJ, Gray RD, Suchard MA & Atkinson QD. 2012. Mapping the Origins and Expansion of the Indo-European Language Family. *Science*, 337(6097), 957-960.
+Bouckaert R. R., Lemey P., Dunn M., Greenhill S. J., Alekseyenko A. V., Drummond A. J., Gray R. D., Suchard M. A. & Atkinson Q. D. 2012. Mapping the Origins and Expansion of the Indo-European Language Family. *Science*, 337(6097), 957-960.
 
-Bouckaert R., Vaughan T.G., Barido-Sottani J., Duchêne S., Fourment M., Gavryushkina A., et al. (2019) BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis. *PLoS computational biology*, 15(4), e1006650.
+Bouckaert R., Vaughan T. G., Barido-Sottani J., Duchêne S., Fourment M., Gavryushkina A., et al. (2019) BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis. *PLoS computational biology*, 15(4), e1006650.
 
-Chang W, Cathcart C, Hall D, & Garrett A. 2015. Ancestry-constrained phylogenetic analysis supports the Indo-European steppe hypothesis. *Language*, 91(1):194-244.
+Chang W., Cathcart C., Hall D. & Garrett A. 2015. Ancestry-constrained phylogenetic analysis supports the Indo-European steppe hypothesis. *Language*, 91(1):194-244.
 
-Dunn, Michael; Ludewig, Julia; et al. 2011. IELex (Indo-European Lexical Cognacy Database) Database. Max Planck Institute for Psycholinguistics: Nijmegen.
+Dunn M., Ludewig J. et al. 2011. IELex (Indo-European Lexical Cognacy Database) Database. Max Planck Institute for Psycholinguistics: Nijmegen.
 
-Hammarström, Harald & Forkel, Robert & Haspelmath, Martin & Bank, Sebastian. 2021. *Glottolog 4.4*.
+Hammarström H., Forkel R., Haspelmath M. & Bank S. 2021. *Glottolog 4.4*.
 Leipzig: Max Planck Institute for Evolutionary Anthropology. https://doi.org/10.5281/zenodo.4761960 
 
-List, Johann Mattis & Rzymski, Christoph & Greenhill, Simon & Schweikhard, Nathanael & Pianykh, Kristina & Tjuka, Annika & Hundt, Carolin & Forkel, Robert (eds.) 2021. *CLLD Concepticon 2.5.0* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4911605 
+List, J.-M., Rzymski C., Greenhill S. J., Schweikhard N., Pianykh K., Tjuka A., Hundt C. & Forkel R. (eds.). 2021. *CLLD Concepticon 2.5.0* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4911605 
 
-Maurits, Luke, Robert Forkel, Gereon A. Kaiping, and Quentin D. Atkinson. 2017. BEASTling: A Software Tool for Linguistic Phylogenetics Using BEAST 2. *PLOS ONE* 12 (8): e0180908. https://doi.org/10.1371/journal.pone.0180908.
+Maurits L., Forkel R., Kaiping G. A. & Atkinson Q. D. 2017. BEASTling: A Software Tool for Linguistic Phylogenetics Using BEAST 2. *PLOS ONE* 12 (8): e0180908. https://doi.org/10.1371/journal.pone.0180908.
 
-Rambaut, Andrew. *Figtree v.1.4.4*. http://tree.bio.ed.ac.uk/software/figtree/
+Rambaut A. *Figtree v.1.4.4*. http://tree.bio.ed.ac.uk/software/figtree/
 
 <!--
 vim:ft=markdown
