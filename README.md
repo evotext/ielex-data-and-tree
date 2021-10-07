@@ -11,6 +11,7 @@ This repository contains data and scripts for producing a Baysian phylogenetic t
 - Ultimately we will offer control files generated using the beastling package (Maurits et al. 2017), which would make it very easy for users to change data and model settings; unfortunately we have found some bugs in the current iteration of beastling which makes it unsuitable. 
 
 ## The "Broad data set"
+
 - Use the Bouckaert et al. (2012) language sample minus sparsly attested languages, following Chang et al. (2015). This is a tradeoff between quality of the wordlist and quantity of languages in the sample. 
 - Slightly truncated meaning list:
 
@@ -88,14 +89,14 @@ The `data/` directory holds the files most researchers will be interested in:
     concept set in Concepticon (List et al., 2021), giving both the gloss and the id.
 
   - `ielex.mcc.tre` is the Maximum Clade Credibility ("consensus") tree from our latest
-    analysis (currently `IE-tree-v1`).
+    analysis (currently `IE-tree-v1`). The first 50% of the sample was removed as burn-in.
 
   - `ielex.mcc.pdf` is a graphic rendering of the tree above, generated with FigTree.
   
 The `build/` directory holds the files used for preparing the phylogenetic reconstruction.
 
 The `IE-trees-v1/` directory holds the files related to the phylogenetic reconstruction, including
-model, logs, and state. As stated above, a copy of the main output, as the `ielex.mcc`, is found in the `data/` directory.
+model, logs, and state. As stated above, a summary of the main output, as `ielex.mcc.tre`, is found in the `data/` directory. For statistical purposes researchers are likely to want the entire (unsummarised) tree sample, `IE-trees-v1/ie-v1.nex`.
 
 ## Tree
 
