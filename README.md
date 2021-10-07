@@ -1,4 +1,4 @@
-# Indo-European (IELex) Good Enough Tree
+# Indo-European Lexical Data (IELex) and ‘Good Enough’ Tree
 
 [ADD DOI AFTER ZENODO RELEASE]
 
@@ -111,15 +111,15 @@ the [Cultural Evolution of Texts](https://github.com/evotext/) project, with fun
 
 If you use the data from this repository, please cite it as:
 
-> Dunn, Michael & Tresoldi, Tiago. 2021. IELex, the Indo-European Lexical Cognacy Database. Uppsala: Uppsala universitet. Available at: https://github.com/evotext/good-enough-ie
+> Dunn, Michael & Tresoldi, Tiago. 2021. Indo-European Lexical Data (IELex) and ‘Good Enough’ Tree. Uppsala: Uppsala universitet. Available at: https://github.com/evotext/good-enough-ie
 
 In BibTeX:
 
 ```
 @misc{Dunn2021IELex,
   author = {Michale Dunn and Tiago Tresoldi},
-  title = {IELex, the Indo-European Lexical Cognacy Database},
-  howpublished = {\url{https://github.com/evotext/good-enough-ie}},
+  title = {Indo-European Lexical Data (IELex) and ‘Good Enough’ Tree},
+  howpublished = {\url{https://github.com/evotext/ielex-data-and-tree}},
   address = {Uppsala},
   publisher = {Uppsala universitet},
   year = {2021},
