@@ -84,9 +84,15 @@ The `data/` directory holds the files most researchers will be interested in:
     It also carries the glottocode (Hammarström et al., 2021) corresponding to each language;
     concept glosses are given via the corresponding Concepticon (List et al., 2021) cognate set.
     It is the file most people will want when searching for "IELex data".
-
+    
   - `concepts.csv` is a list mapping all concepts used in IELex to their corresponding
     concept set in Concepticon (List et al., 2021), giving both the gloss and the id.
+
+  - `ielex.nex` is a NEXUS file with the information from the table above, with ascertainment correction columns,
+    charstate labels, and assumptions.
+    
+  - `ielex.nn.pdf` and `ielex.nn.png` are a PDF and a high-resolution PNG from the NEXUS
+    file above, generated with SplitsTree (Huson & Bryant, 2006).
 
   - `ielex.mcc.tre` is the Maximum Clade Credibility ("consensus") tree from our latest
     analysis (currently `IE-tree-v1`). The first 50% of the sample was removed as burn-in.
@@ -140,6 +146,8 @@ Dunn M., Ludewig J. et al. 2011. IELex, the Indo-European Lexical Cognacy Databa
 
 Hammarström H., Forkel R., Haspelmath M. & Bank S. 2021. *Glottolog 4.4*.
 Leipzig: Max Planck Institute for Evolutionary Anthropology. https://doi.org/10.5281/zenodo.4761960 
+
+Huson D. H. & Bryant D. 2006. Application of Phylogenetic Networks in Evolutionary Studies, *Mol. Biol. Evol.*, 23(2):254-267.
 
 List, J.-M., Rzymski C., Greenhill S. J., Schweikhard N., Pianykh K., Tjuka A., Hundt C. & Forkel R. (eds.). 2021. *CLLD Concepticon 2.5.0* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4911605 
 
