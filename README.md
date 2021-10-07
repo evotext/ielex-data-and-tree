@@ -77,13 +77,13 @@ The control file IE-trees-v1/ie-v1.xml was made manually by Tiago Tresoldi, foll
 
 The `data/` directory holds the files most researchers will be interested in:
 
-  - `broad.csv` is a single table in long format containing the essential database information,
+  - `ielex.csv` is a single table in long format containing the essential database information,
     given one entry per row, each with the associated language, concept, and cognate set.
     It also carries the glottocode (Hammarström et al., 2021) corresponding to each language;
     concept glosses are given via the corresponding Concepticon (List et al., 2021) cognate set.
     It is the file most people will want when searching for "IELex data".
 
-  - `concepts.XXX` is a list mapping all concepts used in IELex to their corresponding
+  - `concepts.csv` is a list mapping all concepts used in IELex to their corresponding
     concept set in Concepticon (List et al., 2021), giving both the gloss and the id.
 
   - `ielex.mcc.tre` is the Maximum Clade Credibility ("consensus") tree from our latest
@@ -91,6 +91,11 @@ The `data/` directory holds the files most researchers will be interested in:
 
   - `ielex.mcc.pdf` is a graphic rendering of the tree above, generated with FigTree.
   
+The `build/` directory holds the files used for preparing the phylogenetic reconstruction.
+
+The `IE-trees-v1/` directory holds the files related to the phylogenetic reconstruction, including
+model, logs, and state. As stated above, a copy of the main output, as the `ielex.mcc`, is found in the `data/` directory.
+
 ## Author and citation
 
 The data and analysis was prepared within the context of
