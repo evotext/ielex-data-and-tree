@@ -1,4 +1,4 @@
-# Indo-European Lexical Data (IELex) and ‘Good Enough’ Tree
+# Indo-European Lexical Cognacy Database (IELex) and ‘Good Enough’ Tree
 
 [ADD DOI AFTER ZENODO RELEASE]
 
