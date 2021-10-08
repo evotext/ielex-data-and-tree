@@ -64,7 +64,7 @@ nexus += "\tDIMENSIONS NTAX=%i NCHAR=%i;\n" % (len(taxa), len(matrix[taxa[0]]))
 nexus += '\tFORMAT DATATYPE=STANDARD MISSING=? GAP=- SYMBOLS="01";'
 nexus += "\tCHARSTATELABELS\n"
 nexus += ",\n".join(["\t\t%i %s" % (idx + 1, cs) for idx, cs in enumerate(charstates)])
-nexus += ";\n"
+nexus += "\n;\n"
 nexus += "MATRIX\n"
 for taxon, vector in matrix.items():
     label = taxon.ljust(taxon_len + 4)
