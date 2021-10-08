@@ -1,0 +1,31 @@
+{
+    "description": "<p>Data and scripts for producing a Baysian phylogenetic tree sample of for the Indo-European family which is \"good enough\", using data from IELex (Dunn et al. 2011).</p>", 
+    "license": "other-open", 
+    "title": "evotext/ielex-data-and-tree: IELex data and tree (2021/11/08)", 
+    "version": "r20211108", 
+    "upload_type": "software", 
+    "publication_date": "2021-10-08", 
+    "creators": [
+        {
+            "affiliation": "Institutionen f\u00f6r lingvistik och filologi, Uppsala universitet", 
+            "name": "Michael Dunn"
+        },
+        {
+            "affiliation": "Institutionen f\u00f6r lingvistik och filologi, Uppsala universitet", 
+            "name": "Tiago Tresoldi"
+        } 
+    ], 
+    "access_right": "open", 
+    "related_identifiers": [
+        {
+            "scheme": "url", 
+            "identifier": "https://github.com/evotext/ielex-data-and-tree/tree/r20211108", 
+            "relation": "isSupplementTo"
+        }, 
+        {
+            "scheme": "doi", 
+            "identifier": "10.5281/zenodo.5556800", 
+            "relation": "isVersionOf"
+        }
+    ]
+}
