@@ -6,7 +6,7 @@ import csv
 from pathlib import Path
 from collections import defaultdict
 
-BASE = Path(__file__).parent
+BASE = Path(__file__).parents[1] / "data"
 
 
 with open(BASE / "ielex.csv", encoding="utf-8") as h:
