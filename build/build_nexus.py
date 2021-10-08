@@ -67,7 +67,7 @@ nexus += ",\n".join(["\t\t%i %s" % (idx + 1, cs) for idx, cs in enumerate(charst
 nexus += ";\n"
 nexus += "MATRIX\n"
 for taxon, vector in matrix.items():
-    label = taxon.ljust(taxon_len - len(taxon) + 4)
+    label = taxon.ljust(taxon_len + 4)
     nexus += "%s %s\n" % (label, vector)
 nexus += ";\n"
 nexus += "END;\n\n"
