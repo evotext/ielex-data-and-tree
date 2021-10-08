@@ -1,5 +1,7 @@
 # Indo-European Lexical Cognacy Database (IELex) and ‘Good Enough’ Tree
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5556801.svg)](https://doi.org/10.5281/zenodo.5556801)
+
 This repository contains data and scripts for producing a Baysian phylogenetic tree sample of for the Indo-European family which is *good enough* for use in phylogenetic comparative methods. It should be considered as the current version of the "Indo-European Lexical Cognacy Database" from Dunn et al. (2011), popularly known as "IELex". The "Indo-European Cognate Relationships" (IE-CoR) database project, now based at the Max Planck Institute for Evolutionary Anthropology, has been working on a much improved database originally based on this data, but has not had any public data release so far. In the meantime, this is the best we can offer, as an alternative to the original website (http://ielex.mpi.nl) which is now offline.
 
 ## Design principles
@@ -116,18 +118,19 @@ the [Cultural Evolution of Texts](https://github.com/evotext/) project, with fun
 
 If you use the data from this repository, please cite it as:
 
-> Dunn, Michael & Tresoldi, Tiago. 2021. Indo-European Lexical Data (IELex) and ‘Good Enough’ Tree. Uppsala: Uppsala universitet. Available at: https://github.com/evotext/ielex-data-and-tree
+> Dunn, Michael & Tresoldi, Tiago. 2021. Indo-European Lexical Data (IELex) and ‘Good Enough’ Tree. Uppsala: Uppsala universitet. Available at: https://github.com/evotext/ielex-data-and-tree ; DOI: 10.5281/zenodo.5556801
 
 In BibTeX:
 
 ```
 @misc{Dunn2021IELex,
-  author = {Michael Dunn and Tiago Tresoldi},
-  title = {Indo-European Lexical Data (IELex) and ‘Good Enough’ Tree},
+  author       = {Michael Dunn and Tiago Tresoldi},
+  title        = {Indo-European Lexical Data (IELex) and ‘Good Enough’ Tree},
   howpublished = {\url{https://github.com/evotext/ielex-data-and-tree}},
-  address = {Uppsala},
-  publisher = {Uppsala universitet},
-  year = {2021},
+  doi          = {10.5281/zenodo.5556801},
+  address      = {Uppsala},
+  publisher    = {Uppsala universitet},
+  year         = {2021}
 }
 ```
 
