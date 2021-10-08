@@ -1,0 +1,12 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Dunn
+    given-names: Michael
+    orcid: https://orcid.org/0000-0001-5349-5252
+  - family-names: Tresoldi
+    given-names: Tiago
+    orcid: https://orcid.org/0000-0002-2863-1467
+title: evotext/ielex-data-and-tree: IELex data and tree (2021/11/08)
+version: r20211108
+date-released: 2021-11-08
