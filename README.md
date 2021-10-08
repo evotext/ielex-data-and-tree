@@ -88,8 +88,7 @@ The `data/` directory holds the files most researchers will be interested in:
   - `concepts.csv` is a list mapping all concepts used in IELex to their corresponding
     concept set in Concepticon (List et al., 2021), giving both the gloss and the id.
 
-  - `ielex.nex` is a NEXUS file with the information from the table above, with ascertainment correction columns,
-    charstate labels, and assumptions.
+  - `ielex.nex` is a NEXUS file with the information from the table above, with ascertainment correction columns, charstate labels, and assumptions. The file is built with `build/build_nexus.py`.
     
   - `ielex.nn.pdf` and `ielex.nn.png` are a PDF and a high-resolution PNG from the NEXUS
     file above, generated with SplitsTree (Huson & Bryant, 2006).
