@@ -1,5 +1,5 @@
 {
-    "description": "<p>Data and scripts for producing a Baysian phylogenetic tree sample of for the Indo-European family which is \"good enough\", using data from IELex (Dunn et al. 2011).</p>", 
+    "description": "Data and scripts for producing a Baysian phylogenetic tree sample of for the Indo-European family which is \"good enough\", using data from IELex (Dunn et al. 2011).", 
     "license": "other-open", 
     "title": "evotext/ielex-data-and-tree: IELex data and tree (2021/11/08)", 
     "version": "r20211108", 
