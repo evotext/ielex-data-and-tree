@@ -118,19 +118,20 @@ the [Cultural Evolution of Texts](https://github.com/evotext/) project, with fun
 
 If you use the data from this repository, please cite it as:
 
-> Dunn, Michael & Tresoldi, Tiago. 2021. Indo-European Lexical Data (IELex) and ‘Good Enough’ Tree. Uppsala: Uppsala universitet. Available at: https://github.com/evotext/ielex-data-and-tree ; DOI: 10.5281/zenodo.5556801
+> Michael Dunn, & Tiago Tresoldi. (2021). evotext/ielex-data-and-tree: IELex data and tree (2021/11/08) (Version r20211108) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5556801
 
 In BibTeX:
 
 ```
-@misc{Dunn2021IELex,
+@dataset{michael_dunn_2021_5556801,
   author       = {Michael Dunn and Tiago Tresoldi},
-  title        = {Indo-European Lexical Data (IELex) and ‘Good Enough’ Tree},
-  howpublished = {\url{https://github.com/evotext/ielex-data-and-tree}},
+  title        = {{evotext/ielex-data-and-tree: IELex data and tree (2021/11/08)}},
+  month        = oct,
+  year         = 2021,
+  publisher    = {Zenodo},
+  version      = {r20211108},
   doi          = {10.5281/zenodo.5556801},
-  address      = {Uppsala},
-  publisher    = {Uppsala universitet},
-  year         = {2021}
+  url          = {https://doi.org/10.5281/zenodo.5556801}
 }
 ```
 
