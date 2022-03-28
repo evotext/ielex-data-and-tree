@@ -1,8 +1,8 @@
 # Indo-European Lexical Cognacy Database (IELex) and ‘Good Enough’ Tree
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5556801.svg)](https://doi.org/10.5281/zenodo.5556801)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5556800.svg)](https://doi.org/10.5281/zenodo.5556800)
 
-This repository contains data and scripts for producing a Baysian phylogenetic tree sample of for the Indo-European family which is *good enough* for use in phylogenetic comparative methods. It should be considered as the current version of the "Indo-European Lexical Cognacy Database" from Dunn et al. (2011), popularly known as "IELex". The "Indo-European Cognate Relationships" (IE-CoR) database project, now based at the Max Planck Institute for Evolutionary Anthropology, has been working on a much improved database originally based on this data, but has not had any public data release so far. In the meantime, this is the best we can offer, as an alternative to the original website (http://ielex.mpi.nl) which is now offline.
+This repository contains data and scripts for producing a Bayesian phylogenetic tree sample of for the Indo-European family which is *good enough* for use in phylogenetic comparative methods. It should be considered as the current version of the "Indo-European Lexical Cognacy Database" from Dunn et al. (2011), popularly known as "IELex". The "Indo-European Cognate Relationships" (IE-CoR) database project, now based at the Max Planck Institute for Evolutionary Anthropology, has been working on a much improved database originally based on this data, but has not had any public data release so far. In the meantime, this is the best we can offer, as an alternative to the original website (http://ielex.mpi.nl) which is now offline.
 
 ## Design principles
 
@@ -98,6 +98,9 @@ The `data/` directory holds the files most researchers will be interested in:
 
   - `ielex.mcc.pdf` is a graphic rendering of the tree above, generated with FigTree.
   
+  - `shared_cognates.tsv` is a table with percentage of shared cognates per doculect pair,
+     as frequently requested by other researchers.
+
 The `build/` directory holds the files used for preparing the phylogenetic reconstruction.
 
 The `IE-trees-v1/` directory holds the files related to the phylogenetic reconstruction, including
@@ -125,13 +128,13 @@ In BibTeX:
 ```
 @dataset{michael_dunn_2021_5556801,
   author       = {Michael Dunn and Tiago Tresoldi},
-  title        = {{evotext/ielex-data-and-tree: IELex data and tree (2021/11/08)}},
-  month        = oct,
-  year         = 2021,
+  title        = {{evotext/ielex-data-and-tree: IELex data and tree (2022/03/28)}},
+  month        = mar,
+  year         = 2022,
   publisher    = {Zenodo},
   version      = {r20211108},
-  doi          = {10.5281/zenodo.5556801},
-  url          = {https://doi.org/10.5281/zenodo.5556801}
+  doi          = {10.5281/zenodo.5556800},
+  url          = {https://doi.org/10.5281/zenodo.5556800}
 }
 ```
 
