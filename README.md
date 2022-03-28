@@ -121,12 +121,12 @@ the [Cultural Evolution of Texts](https://github.com/evotext/) project, with fun
 
 If you use the data from this repository, please cite it as:
 
-> Michael Dunn, & Tiago Tresoldi. (2021). evotext/ielex-data-and-tree: IELex data and tree (2021/11/08) (Version r20211108) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5556801
+> Michael Dunn & Tiago Tresoldi. (2022). evotext/ielex-data-and-tree: IELex data and tree (Version r20220328) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5556800
 
 In BibTeX:
 
 ```
-@dataset{michael_dunn_2021_5556801,
+@dataset{Dunn_5556800,
   author       = {Michael Dunn and Tiago Tresoldi},
   title        = {{evotext/ielex-data-and-tree: IELex data and tree (2022/03/28)}},
   month        = mar,
